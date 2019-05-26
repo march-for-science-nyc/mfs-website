@@ -1,0 +1,38 @@
+.h1 {
+    font-family: "Helvetica Neue";
+    font-size: 4.8vmax;
+}
+
+.bg-img {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 55%;
+}
+
+.cf {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%
+}
+
+.cf img.fade {
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: opacity .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -o-transition: opacity .75s ease-in-out;
+    transition: opacity .75s ease-in-out
+}
+
+.cf img.top:hover {
+    opacity: 0
+}
+
+@media screen and (max-width: 767px) {
+    #stand-for-list {
+        padding-left: 50px;
+        padding-left: 50px;
+    }
+}
