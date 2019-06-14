@@ -1,0 +1,8 @@
+.pagination a {
+    text-decoration: none;
+    color: white;
+}
+
+.pagination .btn:hover {
+    color: white;
+}

@@ -8,7 +8,7 @@
         <meta name="viewport" content="initial-scale=1">
         <meta charset="utf-8">
         <meta property="og:site_name" content="MARCH FOR SCIENCE NYC">
-        <meta property="og:title" content={{ page.title }}>
+        <meta property="og:title" content="{{ page.title }}"">
         <meta property="og:type" content="website">
         <meta name="description" content="">
         <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/logo.webp">
@@ -19,7 +19,7 @@
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-md navbar-light py-4">
-            <a class="navbar-brand" href="{{ site.baseurl }}" style="margin-left: 40px;">
+            <a class="navbar-brand" href="{{ site.baseurl }}/" style="margin-left: 40px;">
                 <img src="{{ site.baseurl }}/images/logo-nodeets-blue.webp" id="navbar-brand-img" alt="March For Science NYC">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuItems" aria-controls="menuItems" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="menuItems">
                 <ul class="navbar-nav mt-2 mt-lg-0 ml-auto nav-pills" style="margin-right:40px;">
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#"><strong>BLOG</strong><span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ site.baseurl }}/blog"><strong>BLOG</strong><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="{{ site.baseurl }}/"><strong>ABOUT</strong></a>
@@ -84,7 +84,9 @@
         </div>
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">
-        <link rel="stylesheet" href={{ site.baseurl }}{{ page.stylesheet }}>
+        {% if page.stylesheet %}
+            <link rel="stylesheet" href="{{ site.baseurl }}{{ page.stylesheet }}">
+        {% endif %}
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
