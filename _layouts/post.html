@@ -1,0 +1,16 @@
+---
+layout: "page"
+---
+
+<div class="item-block-st">
+    <span class="h1 mfs-color-red">{{ page.title }}</span>
+</div>
+<div class="item-block-st">
+    <span class="mfs-color-blue">{{ page.author }} • {{ page.date | date: "%Y/%m/%d" }}</span>
+    <!-- <hr class="mfs-color-blue"> -->
+</div>
+
+<div class="item-block-st">
+    {{ content }}
+</div>
+<div class="item-block-st"></div>
