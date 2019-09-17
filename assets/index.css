@@ -15,10 +15,10 @@
     position: absolute;
     left: 0;
     opacity: 1;
-    -webkit-transition: opacity .75s ease-in-out;
-    -moz-transition: opacity .75s ease-in-out;
-    -o-transition: opacity .75s ease-in-out;
-    transition: opacity .75s ease-in-out
+    -webkit-transition: opacity .65s ease-in-out;
+    -moz-transition: opacity .65s ease-in-out;
+    -o-transition: opacity .65s ease-in-out;
+    transition: opacity .65s ease-in-out
 }
 
 .cf img.top:hover {

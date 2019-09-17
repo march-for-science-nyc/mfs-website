@@ -16,7 +16,7 @@
 title: March For Science NYC
 email: mfs19@gmail.com
 description: March for Science New York City is a non-partisan platform formed by the greater scientific community
-baseurl: "/mfs-website" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: marchforsciencenyc
 github_username:  march-for-science-nyc
