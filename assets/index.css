@@ -13,9 +13,39 @@
     padding-bottom: 100%
 }
 
-.cf img.fade {
+.volunteer-line {
+    position: relative;
+    z-index: 0;
+    width: 90%;
+    height: 1px;
+    top: 18px;
+    background-color: white;
+    margin: auto;
+}
+
+.volunteer-name {
     position: absolute;
-    left: 0;
+    top: 20px;
+    left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.volunteer-title {
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.volunteer-image {
+    position: absolute;
+
+}
+
+.top {
     opacity: 1;
     -webkit-transition: opacity .65s ease-in-out;
     -moz-transition: opacity .65s ease-in-out;
@@ -23,8 +53,22 @@
     transition: opacity .65s ease-in-out
 }
 
-.cf img.top:hover {
-    opacity: 0
+.top:hover {
+    opacity: 0;
+    -webkit-transition: opacity .65s ease-in-out;
+    -moz-transition: opacity .65s ease-in-out;
+    -o-transition: opacity .65s ease-in-out;
+    transition: opacity .65s ease-in-out
+}
+
+.top .volunteer-image {
+    top: 1px;
+    z-index: 1;
+}
+
+.bottom .volunteer-image {
+    top: 1px;
+    z-index: -1;
 }
 
 @media screen and (max-width: 767px) {
