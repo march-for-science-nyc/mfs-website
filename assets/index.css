@@ -3,6 +3,8 @@
     right: 0;
     top: 100px;
     width: 55%;
+    z-index: -1;
+    opacity: 0.08;
 }
 
 .cf {
