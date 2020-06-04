@@ -7,6 +7,14 @@ body {
     background-color: #fc0;
 }
 
+.nav-link:visited {
+    color: #2a7ae2;
+}
+
+.nav-link:hover {
+    color: #2a7ae2;
+}
+
 .btn:hover {
     cursor: pointer;
 }
