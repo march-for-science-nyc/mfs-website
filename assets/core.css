@@ -58,11 +58,7 @@ body {
     max-height: 100%;
 }
 
-.mfs-bg-red {
-    background-color: #ef362e;
-    color: white;
-}
-
+/* colors */
 .mfs-bg-blue {
     background-color: #3873CC;
     color: white;
@@ -86,6 +82,25 @@ body {
 
 .mfs-color-red {
     color: #ef362e;
+}
+
+.mfs-bg-red {
+    background-color: #ef362e;
+    color: white;
+}
+
+.mfs-color-dark-red {
+    color: #A31410;
+}
+
+.mfs-bg-dark-red {
+    background-color: #A31410;
+    color: gray;
+}
+
+.mfs-bg-gray {
+    background-color: gray;
+    color: lightgray;
 }
 
 .blob {
