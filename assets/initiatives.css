@@ -1,0 +1,14 @@
+/* to be changed in core are anchor hoves for this color */
+.initiative-title:hover {
+    color: #7690C5;
+}
+
+.initiative-datetime {
+    color: white;
+}
+
+.divider {
+    height: 1px;
+    background-color:white;
+    margin: 0
+}

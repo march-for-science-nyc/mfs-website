@@ -68,6 +68,10 @@ body {
     color: #3873CC;
 }
 
+a .mfs-color-blue:hover {
+    color: #7690C5;
+}
+
 .mfs-bg-yellow {
     background-color: #fc0;
 }

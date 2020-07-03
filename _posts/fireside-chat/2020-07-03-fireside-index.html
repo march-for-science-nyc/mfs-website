@@ -1,0 +1,37 @@
+---
+layout: "page"
+title: "MFS - Fire Side Chat"
+stylesheet: "/assets/initiatives.css"
+permalink: /fireside-chat
+
+init-title:  "Fireside Chat"
+desc: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes."
+categories: initiatives
+thumbnail: "/images/init-thumbnail/cat.jpg"
+---
+
+<div class="item-block">
+    <span class="h1 mfs-color-red"><strong>{{ page.init-title }}</strong></span>
+</div>
+<div class="item-block-st">
+    <p>
+        You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
+    </p>
+    <hr style="height: 2px; background-color:black; margin: 0">
+</div>
+<!-- fire side chat feed, no work needed here -->
+<div class="item-block-st mb-4">
+    {% for initiative in site.categories.fireside-chat %}
+        <div class="row my-4">
+            <div class="col-md-4">
+                <img src="{{ site.baseurl }}{{ initiative.thumbnail }}">
+            </div>
+            <div class="col-md-6">
+                <a class="initiative-title h2 mfs-color-blue" href="{{ site.baseurl }}{{ initiative.url }}">{{ initiative.title }}</a>
+                <p class="initiative-datetime h4">{{ initiative.date | date: "%-d %B %Y" }}</p>
+                <p class="initiative-desc h4">{{ initiative.desc }}</p>
+            </div>
+        </div>
+        <hr class="divider">
+    {% endfor %}
+</div>
