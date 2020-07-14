@@ -111,6 +111,11 @@ a .mfs-color-blue:hover {
     border-radius: 10px;
 }
 
+.image-contain {
+    object-fit: contain;
+    width: 200%;
+}
+
 @media screen and (max-width: 767px) {
     #navbar-brand-img {
         height: 62px;
