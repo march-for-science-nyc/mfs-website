@@ -4,11 +4,17 @@
 }
 
 .initiative-datetime {
-    color: white;
+    color: gray;
 }
 
-.divider {
-    height: 1px;
+.divider-white {
+    height: 2px;
     background-color:white;
+    margin: 0
+}
+
+.divider-black {
+    height: 2px;
+    background-color:black;
     margin: 0
 }
