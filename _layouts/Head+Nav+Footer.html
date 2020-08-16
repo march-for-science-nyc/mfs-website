@@ -31,19 +31,29 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuItems">
-                <ul class="navbar-nav mt-2 mt-lg-0 ml-auto nav-pills" style="margin-right:40px;">
+                <ul class="navbar-nav mt-2 mt-lg-0 ml-auto" style="margin-right:40px;">
                     <!-- <li class="nav-item mx-2">
                         <a class="nav-link" href="{{ site.baseurl }}/blog"><strong>BLOG</strong><span class="sr-only">(current)</span></a>
                     </li> -->
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="{{ site.baseurl }}/"><strong>ABOUT</strong></a>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <strong>ABOUT</strong>
+                        </a>
+                        <!-- <div class="dropdown-menu mfs-bg-yellow" aria-labelledby="navbarDropdown">
+                            <a  href="/">EVENT</a>
+                            <a class="dropdown-item" href="/team">TEAM</a>
+                        </div> -->
+                        <ul class="dropdown-menu mfs-bg-yellow" aria-labelledby="navbarDropdown">
+                            <li><a href="/" style="display: block; max-width: 50px; margin: auto; color: black;">EVENT</a></li>
+                            <li><a href="/team" style="display: block; max-width: 50px; margin: auto; color: black;">TEAM</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="{{ site.baseurl }}/event"><strong>EVENT</strong></a>
                     </li>
-                    <!--<li class="nav-item mx-2">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="{{ site.baseurl }}/contact"><strong>CONTACT</strong></a>
-                    </li>-->
+                    </li>
                     <!-- <li class="nav-item mx-2">
                         <a class="nav-link" href="https://www.nyu.edu/giving/give-now/?id=1000341"><strong>DONATE</strong></a>
                     </li> -->
@@ -72,9 +82,9 @@
                     <div class="col-sm-4">
                         <a class="nav-link" href="{{ site.baseurl }}/"><strong>ABOUT</strong></a>
                     </div>
-                    <!-- <div class="col-sm-4">
+                    <div class="col-sm-4">
                         <a class="nav-link" href="{{ site.baseurl }}/contact"><strong>CONTACT</strong></a>
-                    </div> -->
+                    </div>
                     <!--<div class="col-sm-3">
                         <strong>DONATE</strong>
                     </div>-->
