@@ -28,15 +28,18 @@ stylesheet: "/assets/events.css"
                     <span class="h1 mfs-color-red"><strong>Ongoing</strong></span>
                 </div>
                 <div class="pb-2">
-<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23D50000&amp;ctz=America%2FNew_York&amp;src=YjlwNnM5M3RpYnRpb2ZydGNncGxubXFoMWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;mode=AGENDA" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>                <div>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23EF362E&amp;ctz=America%2FNew_York&amp;src=YjlwNnM5M3RpYnRpb2ZydGNncGxubXFoMWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;mode=AGENDA" style="border:solid 1px #777; width: 100%;" height="300" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+            <div class="item-block-st py-2">
+                <div>
                     <span class="h1 mfs-color-red"><strong>Initiatives</strong></span>
                 </div>
-                {% for initiative in site.categories.initiatives %}
                     <div class="row my-4">
                         <div class="col-md-4">
-                            <img src="{{ site.baseurl }}{{ initiative.thumbnail }}">
+                            <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <a class="initiative-title h2" style="color: black;" >Fireside Chat</a>
                             <!-- <p class="initiative-datetime h4">{{ initiative.date | date: "%-d %B %Y" }}</p> -->
                             <p class="initiative-desc h5">During this time when we are all staying home for the greater good, science still goes on. To be able to continue to discuss how it's received and impacts the world, we've transformed our monthly happy hours into bi-weekly Fireside Chats, held over Zoom. Come chat with us! This event series also includes monthly BIPOC spaces.</p>
@@ -44,16 +47,15 @@ stylesheet: "/assets/events.css"
                     </div>
                     <div class="row my-4">
                         <div class="col-md-4">
-                            <img src="{{ site.baseurl }}{{ initiative.thumbnail }}">
+                            <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <a class="initiative-title h2" style="color: black;" >STEM the Vote</a>
                             <!-- <p class="initiative-datetime h4">{{ initiative.date | date: "%-d %B %Y" }}</p> -->
                             <p class="initiative-desc h5">STEM the Vote is a Get Out the Vote initiative in partnership with Plus 1 Vote  and Science Rising. We seek to (1) increase voter turnout, focusing on communities with historically low political incorporation and (2) emphasize the need to elect public officials committed to science-based policies grounded in social justice. </p>
                         </div>
                     </div>
                     <hr class="divider-black">
-                {% endfor %}
             </div>
             <div class="item-block-st py-2" id="past">
                 <div>
@@ -68,8 +70,8 @@ stylesheet: "/assets/events.css"
                            
                            <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >  </a>
                             <p class="initiative-datetime h4">04-07-2020</p>
                             <p class="initiative-desc h5"> </p>
                            <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>
@@ -83,8 +85,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Fireside Chat: Tackling Misinformation</a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Fireside Chat: Tackling Misinformation</a>
                             <p class="initiative-datetime h4">03-30-2020</p>
                             <p class="initiative-desc h5">Misinformation is spread rapidly online. Government officials deny climate change and have silenced public health officials in the wake of a pandemic. How can we combat these issues? </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vSwsYrYOFiRbhABUb4ovNjblnkZIZqxBK9vI5w2mc1yHlY84h0M6DtggClUpfCmV0zhQA4-803s949b/pub">Meeting Notes</a>
@@ -96,35 +98,34 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Fireside Chat: Scientists in Society</a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Fireside Chat: Scientists in Society</a>
                             <p class="initiative-datetime h4">04-07-2020</p>
                             <p class="initiative-desc h5">What is the role and responsibility of scientists in society? What does it mean to be a scientist-activist? How can we use our skills as scientists to be active members of our communities? </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vTEWKcqN7xSgWlbtXHX-yH-kRCYf0jTk841WRFL3AYWMpD3OcZyFCJrTb_7-fvGfQw31CtkrpBSucQO/pub">Meeting Notes</a>
                         </div>
                     </div>
-                    
                                         
                     <div class="row py-3">
                         <div class="col-md-4">
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Fireside Chat: SciComm and the Internet</a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Fireside Chat: SciComm and the Internet</a>
                             <p class="initiative-datetime h4">04-14-2020</p>
                             <p class="initiative-desc h5">What digital tools can we use to effectively communicate and advocate for science? Social media, blogs, memes, YouTube videos, TikTok dances...we want to hear your thoughts! </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vRR1i1SdtGKn7PTTmBeeqf4U5u0iQCGvjtBgXNs9M2gubN17zPPBF-vYJ8_-zwxlH9BvM-WQtw7KyCB/pub">Meeting Notes</a>
                         </div>
                     </div>
 
-                              <div class="row py-3">
+                    <div class="row py-3">
                         <div class="col-md-4">
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Fireside Chat: Partisan Brain</a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Fireside Chat: Partisan Brain</a>
                             <p class="initiative-datetime h4">05-05-2020</p>
                             <p class="initiative-desc h5"> Science is political, but should not be partisan. This week, we discuss partisan brain: entrenching your beliefs along party lines might actually be altering the way you perceive new information and superceding your values. We'll discuss discuss how this occurs and what we can do to reduce these biases.</p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vTPIaKtqLrRtO1Mcg3AZ2R5q-76rBCYRorLehPKjkQJtMQNHB2Rd4EaqrTSurcZN5aOmT0dY9XtmhXf/pub ">Meeting Notes</a>
@@ -137,8 +138,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Fireside Chat: Getting Out the Vote</a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Fireside Chat: Getting Out the Vote</a>
                             <p class="initiative-datetime h4">05-12-2020</p>
                             <p class="initiative-desc h5">It's election year. So much depends on this election, and we need elected officials who stand up for science. How can we get voters to the polls? How can we bring science into conversations of civics? </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vSlHdKtT6WzozV1SvlGrd6LFUovVAoleIBOyavhaubmE18PdzebQTSEprTs1OcbuHJiGa4-bHWG7pJ-/pub ">Meeting Notes</a>
@@ -151,8 +152,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" > Fireside Chat: Funding Science in the US </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" > Fireside Chat: Funding Science in the US </a>
                             <p class="initiative-datetime h4">05-19-2020</p>
                             <p class="initiative-desc h5"> Without science, our society would not be where it is today; Funding of basic science by the federal government has played an essential role in this progress, but those funds have been drying up. Grant writing plays an essential part of all researchers' careers - who receives funding determines what and how science is done. How has this shaped the scientific community? What gaps still exist in our funding mechanisms?</p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vSHFV866Nn7_433qnfTBc2YMCixOsoEJtC_f1sZeBT9xCalN9zBe9TTAGo3RwNAHzt2KfIIEUL48dRk/pub ">Meeting Notes</a>
@@ -165,8 +166,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" > Fireside Chat: Scientists for Black Lives </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" > Fireside Chat: Scientists for Black Lives </a>
                             <p class="initiative-datetime h4">06-02-2020 </p>
                             <p class="initiative-desc h5">Scientists are not immune to the biases that stem from the anti-blackness perpetuated by our society. To build a healthy and just world, we must actively be anti-racist, How can we promote change from the streets, within our workplaces, and through policy?  </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vTd1yteIk25xnqTfcWnE-k7J6kIkkagCvJDIimVng0W3XeNVx7tL2Ic2xdzAUw7TEhDqn6sYcsqImtE/pub ">Meeting Notes</a>
@@ -179,8 +180,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" > Fireside Chat: Racism in STEM series: A Space for BIPOC </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" > Fireside Chat: Racism in STEM series: A Space for BIPOC </a>
                             <p class="initiative-datetime h4">06-17-2020</p>
                             <p class="initiative-desc h5"> We are dedicating space for Black, Brown and Indigenous (BIPOC) STEM professionals, trainees and science advocates to take a moment and collectively unwind and grieve for the disproportionate loss of BIPOC lives. We will share stories, experiences, and try to heal. Open to Black, Brown and Indigenous POC only.</p>
                            <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vTE6irZAL1q82L8_r_Cz6z05G4oYvbdEekcOdq7C9MngPO8rdU2iKF57pJ_Lh0e7stQ5Xs74CicZL0n/pub ">Meeting Notes</a>
@@ -193,8 +194,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" > Fireside Chat: Racism in STEM series: Understanding the Complexity of the Issue </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" > Fireside Chat: Racism in STEM series: Understanding the Complexity of the Issue </a>
                             <p class="initiative-datetime h4">06-24-2020</p>
                             <p class="initiative-desc h5"> What are microaggressions and macroaggressions? What’s the difference between equality, equity, and justice? How do these concepts apply to the current climate in STEM, and how is racism in STEM perpetuated in both institutional and personal ways? All of these questions and more will be addressed in this fireside chat discussion. Open to all.</p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vTE6irZAL1q82L8_r_Cz6z05G4oYvbdEekcOdq7C9MngPO8rdU2iKF57pJ_Lh0e7stQ5Xs74CicZL0n/pub ">Meeting Notes</a>
@@ -206,8 +207,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" > Fireside Chat: Racism in STEM series: A Leaky Pipeline and Empty Promise</a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" > Fireside Chat: Racism in STEM series: A Leaky Pipeline and Empty Promise</a>
                             <p class="initiative-datetime h4">07-01-2020</p>
                             <p class="initiative-desc h5">Racism in STEM is not new, and academic institutions have attempted to “address” the issue by building pipelines to increase diverse hires and student acceptances. These “solutions” are fundamentally flawed if they do not address the systemic issues which perpetuated racism in the first place. How do we move forward? What needs to be done to truly support BIPOC in STEM? We’ll discuss what changes need to be made in academia moving forward. Open to all.</p>
                            <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vTE6irZAL1q82L8_r_Cz6z05G4oYvbdEekcOdq7C9MngPO8rdU2iKF57pJ_Lh0e7stQ5Xs74CicZL0n/pub ">Meeting Notes</a>
@@ -219,38 +220,34 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Fireside Chat: A Space for BIPOC: Creating BIPOC Spaces  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Fireside Chat: A Space for BIPOC: Creating BIPOC Spaces  </a>
                             <p class="initiative-datetime h4">07-22-2020</p>
                             <p class="initiative-desc h5"> This week by the fire, we are joined by Cicely Shillingford who has recently founded NYU Blackademics, the Graduate School of Arts and Sciences' coalition of Black students. Cicely will speak to us about forming a space for Black students in STEM, and kick-off our conversation about how we can create more Black, Indigenous (BIPOC) spaces within the STEM community. BIPOC only. </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
                         </div>
                     </div>
-                    
-                    
                                         
                     <div class="row py-3">
                         <div class="col-md-4">
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Fireside Chat: Allyship </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Fireside Chat: Allyship </a>
                             <p class="initiative-datetime h4">08-05-2020</p>
                             <p class="initiative-desc h5">What does it mean to be an ally? What does good allyship look like? How can we be an ally in STEM? </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://docs.google.com/document/d/e/2PACX-1vTdKEMQY8J1n9yv1cKd6L6NkusXuHMirUSGS_NgDPL9f3Se-DKMFXAxzj1ZOIUUd9pL1AX09al0hbHl/pub">Meeting Notes</a>
                         </div>
                     </div>
-                    
-                    
                                      
                     <div class="row py-3">
                         <div class="col-md-4">
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" > STEM the Vote: Science Panel Series - Environmental Policy </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" > STEM the Vote: Science Panel Series - Environmental Policy </a>
                             <p class="initiative-datetime h4">08-11-2020</p>
                             <p class="initiative-desc h5"> A series of events to discuss evidence-based policies, hosted by March for Science NYC. In the last year, the climate movement has seen renewed attention. Help us turn this momentum into policy -- join us for a conversation on 8/11 with Todd Fernandez (climatecrisispolicy.org) and Cynthia Leung, Brooklyn-based climate activist.</p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href=" https://www.youtube.com/watch?v=tCydxgaYiD8">Video</a>
@@ -263,8 +260,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >STEM the Vote: Science Panel Series - Economic Policy </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >STEM the Vote: Science Panel Series - Economic Policy </a>
                             <p class="initiative-datetime h4">08-04-2020</p>
                             <p class="initiative-desc h5"> A series of events to discuss evidence-based policies, hosted by March for Science NYC. We'll discuss how we measure our economic health, how we can recover from this pandemic, and the role organized labor plays in shaping economic policies. Don't miss out!</p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://www.youtube.com/watch?v=xtoae9zxmPk">Video</a>
@@ -277,8 +274,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >STEM the Vote: Science Panel Series - Food Policy</a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >STEM the Vote: Science Panel Series - Food Policy</a>
                             <p class="initiative-datetime h4">07-28-2020</p>
                             <p class="initiative-desc h5">A series of events to discuss evidence-based policies, hosted by March for Science NYC. Join our co-chair Omar for a conversation with Dr. Molly Anderson and Karen Washington! </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href=" https://www.youtube.com/watch?v=83BSaaV2jww">Video</a>
@@ -291,8 +288,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >STEM the Vote: Science Panel Series - Immigration Policy  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >STEM the Vote: Science Panel Series - Immigration Policy  </a>
                             <p class="initiative-datetime h4">07-21-2020</p>
                             <p class="initiative-desc h5">A series of events to discuss evidence-based policies, hosted by March for Science NYC. Tonight is our #ScienceRising Panel Discussion on Immigration Policy! Featuring Boston University Professor Dr. Heba Gowayed, our very own Co- Director Lucky Tran, and from  Make the Road New York Tony Alcaron will be discussing the current state of immigration policy, gaps that exist, how we can use our votes and action to do better!!! </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://www.youtube.com/watch?v=iWXS_VnSXZY ">Video</a>
@@ -305,8 +302,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >STEM the Vote: Science Panel Series - Healthcare Policy </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >STEM the Vote: Science Panel Series - Healthcare Policy </a>
                             <p class="initiative-datetime h4">07-14-2020</p>
                             <p class="initiative-desc h5">A series of events to discuss evidence-based policies, hosted by March for Science NYC. We talk health policy with Dr. Steffie Woolhandler from CUNY Hunter College and Dior Vargas from the People of Color and Mental Illness Photo Project.</p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://www.youtube.com/watch?v=_ePphcz21CA ">Video</a>
@@ -319,8 +316,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >STEM the Vote: Science Panel  Series - An Introduction to Science Policy  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >STEM the Vote: Science Panel  Series - An Introduction to Science Policy  </a>
                             <p class="initiative-datetime h4">07-07-2020</p>
                             <p class="initiative-desc h5">A series of events to discuss evidence-based policies, hosted by March for Science NYC. We're kicking off our #GOTV panel series with an intro to #scipol ft. National Science Policy Network, FASEB, & NASEM, moderated by our co-chair Ingrid. What questions do you have about #scipol?  #ScienceRising </p>
                             <a type="button" class="btn mfs-bg-red" style="color: white;" href="https://www.youtube.com/watch?v=dg0BfRmJjHw ">Video</a>
@@ -334,8 +331,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Urgent Federal Climate Bills & Strategy ( Hosted by Climate Crisis Policy )  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Urgent Federal Climate Bills & Strategy ( Hosted by Climate Crisis Policy )  </a>
                             <p class="initiative-datetime h4">07-01-2020</p>
                             <p class="initiative-desc h5">Nationwide policy change is the best and only real hope for systemic action at the scale and timeline required to avert disaster. Come learn about 10 specific bills in Congress that will shape the future of our planet - if we can pass them and much more! </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -347,8 +344,8 @@ stylesheet: "/assets/events.css"
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Earth Day 50 Virtual Kick-Off  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Earth Day 50 Virtual Kick-Off  </a>
                             <p class="initiative-datetime h4">04-07-2020</p>
                             <p class="initiative-desc h5">SCIENCE NOT SILENCE! Join us for a Digital Day of Action on April 19, 2020 presented by Earth Day Initiative and March for Science NYC. Together we can build a better world.
 Learn more at www.virtualearthday50.org </p>
@@ -361,8 +358,8 @@ Learn more at www.virtualearthday50.org </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Steam for Science  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Steam for Science  </a>
                             <p class="initiative-datetime h4">04-18-2020</p>
                             <p class="initiative-desc h5">To get us excited for the Earth Day 50 Virtual Kick-Off, we're partnering with our friends Rupeethon and some other popular streams to #StreamForScience and spread our message: Together we can stop climate change. Tune for gameplay, chats with our organizers, and more from folks who are showing up to stand up for science. </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -374,8 +371,8 @@ Learn more at www.virtualearthday50.org </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >STEM Votes: Democratic Debate Watch Party  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >STEM Votes: Democratic Debate Watch Party  </a>
                             <p class="initiative-datetime h4">02-25-2020</p>
                             <p class="initiative-desc h5">Come watch the Democratic debate and play science policy bingo with your local scientists & activists at RPM Underground! </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -387,8 +384,8 @@ Learn more at www.virtualearthday50.org </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >February Happy Hour: Inclusion in STEM  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >February Happy Hour: Inclusion in STEM  </a>
                             <p class="initiative-datetime h4">02-11-2020</p>
                             <p class="initiative-desc h5">Come join MFS NYC for happy hour to discuss diversity and inclusion in STEM! See you all there!
 Venue is wheelchair accessible. </p>
@@ -401,8 +398,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Volunteer Information Session  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Volunteer Information Session  </a>
                             <p class="initiative-datetime h4">01-21-2020</p>
                             <p class="initiative-desc h5">Interested in the intersection of science and policy? Want to get involved with local science advocacy? Join March for Science NYC, an official satellite of March for Science. </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -414,8 +411,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Science Advocates Happy Hour  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Science Advocates Happy Hour  </a>
                             <p class="initiative-datetime h4">12-05-2019</p>
                             <p class="initiative-desc h5">Join local science advocates for casual conversation at Stout FiDi! We will be here from 6-8 PM every first Thursday of the month! </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -428,8 +425,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Climate Action Panel  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Climate Action Panel  </a>
                             <p class="initiative-datetime h4">11-22-2019</p>
                             <p class="initiative-desc h5"> Join us for a panel discussion co-hosted with NYU Tandon School of Engineering Urban Food Lab, a student-run vertical farm at NYU MakerSpace, through their Climate Week of Action. Representatives from Fridays for Future, Sunrise Movement, Extinction Rebellion, and March for Science will discuss their climate activism and how to get involved!</p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -441,8 +438,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Science Strike in NYC  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Science Strike in NYC  </a>
                             <p class="initiative-datetime h4">09-20-2019</p>
                             <p class="initiative-desc h5">Over the last year, millions of school climate strikers have been leaving their classrooms every Friday. Young people have woken up much of the world, and now they are asking everyone else to join them in action. And on September 20, to coincide with the big UN climate meeting, we will support our youth’s call for adults to join them in the streets. Strikes can be a powerful tactic for shifting the balance of power by disrupting business as usual. </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -454,8 +451,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Rally to Demand a #ClimateDebate: Round 2! (Hosted by Sunrise Movement)  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Rally to Demand a #ClimateDebate: Round 2! (Hosted by Sunrise Movement)  </a>
                             <p class="initiative-datetime h4">08-13-2019</p>
                             <p class="initiative-desc h5">In both rounds of the Democratic primary debates, the climate crisis received only a fraction of air time. The DNC does not recognize that the climate crisis is an all-encompassing issue that affects every facet of life on this planet. Therefore, the issue deserves its own debate.  </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -467,8 +464,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >350 Action NY Democratic Debate Watch Party  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >350 Action NY Democratic Debate Watch Party  </a>
                             <p class="initiative-datetime h4">07-30-2019</p>
                             <p class="initiative-desc h5">Come join 350 Action, Sunrise NYC, Earth Strike NYC and March for Science New York City as we gather to watch the Democratic primary debates and discuss how the current system fails to address the climate crisis. With the competition heating up, we urge the candidates to the climate a central issue in the debates. We also demand a #ClimateDebate so we an hear in detail each candidate's proposed solutions. We'll use the debate as an opportunity to discuss how the current system is failing to address the climate crisis. </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -480,8 +477,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Rally for a Climate Debate (Hosted by Sunrise Movement)  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Rally for a Climate Debate (Hosted by Sunrise Movement)  </a>
                             <p class="initiative-datetime h4">06-22-2019</p>
                             <p class="initiative-desc h5">Sunrise Movement NYC will be holding a rally outside the Democratic National Committee offices in Manhattan on 7/22, as part of a nationwide Sunrise Movement campaign to demand a climate debate. With your help, we will pressure NY’s members of the DNC to vote on holding a climate debate when the DNC gathers in San Francisco on August 22-24. RSVP, spread the word, and help us give the climate crisis the critical attention it deserves! </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -493,8 +490,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >March for Science 2019: New York City   </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >March for Science 2019: New York City   </a>
                             <p class="initiative-datetime h4">05-04-2019</p>
                             <p class="initiative-desc h5"> New York City is March for Science's 2019 flagship event! </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -506,8 +503,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Sign Making for the Youth Climate Strike  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Sign Making for the Youth Climate Strike  </a>
                             <p class="initiative-datetime h4">03-09-2018</p>
                             <p class="initiative-desc h5">Join March for Science NYC as we host a sign-making event in support of the Youth Climate Strike. </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -519,8 +516,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Letter Writing Happy Hour  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Letter Writing Happy Hour  </a>
                             <p class="initiative-datetime h4">10-18-2018</p>
                             <p class="initiative-desc h5">Midterm elections are approaching. We registered to vote, and now we've got to show that #ScienceMarchesOn to the polls - let's let our representatives and candidates know that we're listening. On policies regarding issues from healthcare to climate change, we're holding them accountable to evidence-based policy. Join us during happy hour at The Half Pint to write your representatives on why evidence-based policy is important to you. </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -532,8 +529,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" >Voter Registration Drive & Science Policy Panel  </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" >Voter Registration Drive & Science Policy Panel  </a>
                             <p class="initiative-datetime h4">09-25-2018</p>
                             <p class="initiative-desc h5">Midterm elections may be weeks away on November 6, but the deadline to register to vote is weeks before then - to vote in NY, it's on 10/12. If you're not registered to vote, let March for Science help you! We’ll also help out with addressing the issues with our Science Policy Panel Discussion!  </p>
                            <!-- <a type="button" class="btn mfs-bg-red" style="color: white;" href=" ">Meeting Notes</a>-->
@@ -545,8 +542,8 @@ Venue is wheelchair accessible. </p>
                             <!-- image here vvv -->
                             <img src="/images/init-thumbnail/cat.jpg">
                         </div>
-                        <div class="col-md-6">
-                            <a class="initiative-title h2" style="color: black;" > March for Science 2018 </a>
+                        <div class="col-md-8">
+                            <a class="initiative-title h3" style="font-weight: bold; color: black;" > March for Science 2018 </a>
                             <p class="initiative-datetime h4">04-14-2018</p>
                             <p class="initiative-desc h5">Science will not be silenced - and it’s time to unite again. This year, let’s come together to send a message: we will hold policy makers responsible for enacting equitable, evidence-based policies that serve all communities.
 We march for many reasons, but unite to defend science — because science belongs to us all. </p>
