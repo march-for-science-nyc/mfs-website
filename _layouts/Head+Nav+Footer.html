@@ -12,7 +12,7 @@
         <meta property="og:type" content="website">
         <meta name="description" content="">
         <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/logo.webp">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Libre+Baskerville:700|Roboto:400,500">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,11 +31,11 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuItems">
-                <ul class="navbar-nav mt-2 mt-lg-0 ml-auto" style="margin-right:40px;">
+                <ul class="navbar-nav mt-2 mt-lg-0 ml-auto" style="margin-right:40px; text-align: center;">
                     <!-- <li class="nav-item mx-2">
                         <a class="nav-link" href="{{ site.baseurl }}/blog"><strong>BLOG</strong><span class="sr-only">(current)</span></a>
                     </li> -->
-                    <li class="nav-item dropdown mx-2">
+                    <li class="nav-item dropdown mx-2 d-flex align-items-center">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <strong>ABOUT</strong>
                         </a>
@@ -44,20 +44,24 @@
                             <a class="dropdown-item" href="/team">TEAM</a>
                         </div> -->
                         <ul class="dropdown-menu mfs-bg-yellow" aria-labelledby="navbarDropdown">
-                            <li><a href="/" style="display: block; max-width: 50px; margin: auto; color: black;">EVENT</a></li>
+                            <!-- <li><a href="/" style="display: block; max-width: 50px; margin: auto; color: black;">EVENT</a></li> -->
                             <li><a href="/team" style="display: block; max-width: 50px; margin: auto; color: black;">TEAM</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item mx-2">
+                    <li class="nav-item mx-2 d-flex align-items-center">
                         <a class="nav-link" href="{{ site.baseurl }}/event"><strong>EVENT</strong></a>
                     </li>
-                    <li class="nav-item mx-2">
+                    <li class="nav-item mx-2 d-flex align-items-center">
+                        <a class="nav-link" href="{{ site.baseurl }}/science-debate"><strong>SCIENCE<br>DEBATE</strong></a>
+                    </li>
+                    <li class="nav-item mx-2 d-flex align-items-center">
                         <a class="nav-link" href="{{ site.baseurl }}/contact"><strong>CONTACT</strong></a>
                     </li>
-                    <li class="nav-item mx-2">
+                    <li class="nav-item mx-2 d-flex align-items-center">
                         <a class="nav-link" href="https://checkout.square.site/merchant/MLZTYXMXR0GE9/checkout/FLL4ODJKG4EJ6UQBEUKTGIOZ"><strong>DONATE</strong></a>
                     </li>
-                    <li class="nav-item mx-2">
+                    
+                    <li class="nav-item mx-2 d-flex align-items-center">
                         <a class="nav-link mfs-bg-red" href="{{ site.baseurl }}/mailing-list-signup" style="color: white"><strong>MAIL LIST</strong></a>
                     </li>
                     <li class="nav-item mx-2 d-flex align-items-center">
@@ -79,24 +83,24 @@
                     <!-- <div class="col-sm-2">
                         <strong>BLOG</strong>
                     </div> -->
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <a class="nav-link" href="{{ site.baseurl }}/"><strong>ABOUT</strong></a>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <a class="nav-link" href="{{ site.baseurl }}/contact"><strong>CONTACT</strong></a>
                     </div>
-                    <li class="nav-item mx-2">
+                    <div class="col-sm-3">
                         <a class="nav-link" href="https://checkout.square.site/merchant/MLZTYXMXR0GE9/checkout/4I5337CEIDI3JPDZI5WEQXOB"><strong>DONATE</strong></a>
-                    </li>
+                    </div>
                     <!-- <div class="col-sm-4">
                         <a class="nav-link" href="https://whova.com/portal/registration/march_202004/"><strong>REGISTER</strong></a>
                     </div> -->
                     <!-- <div class="col-sm-2">
                         <strong>SOCIAL</strong>
                     </div> -->
-                    <div class="col-sm-2">
+                    <div class="col-sm-3">
                         <a class="nav-link" href="{{ site.baseurl }}/mailing-list-signup"><strong>MAIL LIST</strong></a>
-                    </li>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,11 +108,9 @@
             <img src="{{ site.baseurl }}/images/mfs_logo_with_text.svg" height="100" width="100" alt="March For Science NYC" alt="Not Found" onerror="this.onerror=null;this.src='{{ site.baseurl }}/images/mfs_logo_with_text.png';">
         </div>
         <div class="mfs-bg-db pb-4 px-5">
-            <a href="http://studiogoodie.com/" style="float:left; color: white">Design by Studio Goodie</a>
             <a href="https://github.com/SteveUcho" style="float: right; color: white">Built by Steve Ucho</a>
         </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     </body>
 </html>
